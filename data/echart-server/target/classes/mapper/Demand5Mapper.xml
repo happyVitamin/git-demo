@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.echartserver.dao.Demand5Mapper">
+  <resultMap id="BaseResultMap" type="com.example.echartserver.domain.Demand5">
+    <!--@mbg.generated-->
+    <!--@Table demand5-->
+    <result column="breed" jdbcType="VARCHAR" property="breed" />
+    <result column="rate" jdbcType="VARCHAR" property="rate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    breed, rate
+  </sql>
+</mapper>

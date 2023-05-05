@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.echartserver.dao.Demand6Mapper">
+  <resultMap id="BaseResultMap" type="com.example.echartserver.domain.Demand6">
+    <!--@mbg.generated-->
+    <!--@Table demand6-->
+    <result column="breed" jdbcType="VARCHAR" property="breed" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    breed, sex, `count`
+  </sql>
+</mapper>
